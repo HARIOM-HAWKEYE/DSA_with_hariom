@@ -1,5 +1,6 @@
+package Arrays_Easy;
 import java.util.* ;
-import java.io.*; 
+
 
 public class LargestElementInTheArray {
 
@@ -18,6 +19,8 @@ public static void main(String[] args){
    for(int i=0;i<n;i++) arr[i]=sc.nextInt();
   
    System.out.print(largestElement(arr, n));
+
+   sc.close();
 
 }
 
